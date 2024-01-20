@@ -1,7 +1,7 @@
 import numpy as np
 
 
-def vectorization_example_a():
+def not_using_vectorization_example():
     b = 4
     w = np.array([1.0, 2.5, -3.3])
     x = np.array([10, 20, 30])
@@ -13,7 +13,7 @@ def vectorization_example_a():
     return f
 
 
-def vectorization_example_b():
+def vectorization_example():
     b = 4
     w = np.array([1.0, 2.5, -3.3])
     x = np.array([10, 20, 30])
@@ -22,5 +22,5 @@ def vectorization_example_b():
 
 
 if __name__ == '__main__':
-    print(vectorization_example_a())
-    print(vectorization_example_b())
+    print(not_using_vectorization_example())
+    print(vectorization_example())
