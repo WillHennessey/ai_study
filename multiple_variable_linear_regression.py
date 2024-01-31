@@ -1,6 +1,6 @@
-import copy, math
+import copy
+import math
 import numpy as np
-import matplotlib.pyplot as plt
 np.set_printoptions(precision=2)  # reduced display precision on numpy arrays
 
 
@@ -35,8 +35,8 @@ def predict_single_loop(x, w, b):
     single predict using linear regression
 
     Args:
-      x (ndarray): Shape (n,) example with multiple features
-      w (ndarray): Shape (n,) model parameters
+      x (ndarray): Shape (n) example with multiple features
+      w (ndarray): Shape (n) model parameters
       b (scalar):  model parameter
 
     Returns:
